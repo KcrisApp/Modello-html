@@ -1,16 +1,22 @@
 nav{
     display: flex;
     flex-direction:row ;
-    margin: 2rem;
+    padding: 2rem;
+    background-color: crimson;
 
     .logo{
-        @include flex(space-around, center, row);
+        @include flex(space-between, center, row);
         flex: 1 1 30%;
         
     }
     ul{
-        @include flex(space-between, center, row);
+        @include flex(space-around, center, row);
         flex: 1 1 70%;
         
+    }
+    a{
+        &:hover{
+            color: crimson;
+        }
     }
 }
