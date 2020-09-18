@@ -10,7 +10,6 @@ footer{
         @include flex(space-around, center, row);
     }
     h4{
-        flex: 1 1 40rem;
-        
+        flex: 1 1 40rem; 
     }
 }

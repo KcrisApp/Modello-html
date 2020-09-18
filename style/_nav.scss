@@ -4,11 +4,13 @@ nav{
     margin: 2rem;
 
     .logo{
-        @include flex(space-between, center, row);
-        flex: 1 1 10%;
+        @include flex(space-around, center, row);
+        flex: 1 1 30%;
+        
     }
     ul{
-        @include flex(space-around, center, row);
-        flex: 1 1 60%;
+        @include flex(space-between, center, row);
+        flex: 1 1 70%;
+        
     }
 }
