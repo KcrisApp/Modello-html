@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    flex-direction:row ;
+    margin: 2rem;
+
+    .logo{
+        @include flex(space-between, center, row);
+        flex: 1 1 10%;
+    }
+    ul{
+        @include flex(space-around, center, row);
+        flex: 1 1 60%;
+    }
+}
