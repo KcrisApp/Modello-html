@@ -5,13 +5,13 @@ nav{
     background-color: crimson;
 
     .logo{
-        @include flex(space-between, center, row);
-        flex: 1 1 30%;
+        @include flex(flex-start, center, row);
+        flex: 1 1 10%;
         
     }
     ul{
         @include flex(space-around, center, row);
-        flex: 1 1 70%;
+        flex: 1 1 30%;
         
     }
     a{
