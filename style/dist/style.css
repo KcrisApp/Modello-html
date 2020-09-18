@@ -75,14 +75,15 @@ nav .logo {
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  flex: 1 1 10%;
+  flex: 1 1 20rem;
+  padding-left: 4.5rem;
 }
 nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  flex: 1 1 5%;
+  flex: 1 1 10rem;
 }
 nav a {
   font-size: 2rem;
@@ -90,6 +91,11 @@ nav a {
 }
 nav a:hover {
   color: crimson;
+}
+
+.burger,
+.menu-check {
+  display: none;
 }
 
 @media screen and (max-width: 1332px) {
