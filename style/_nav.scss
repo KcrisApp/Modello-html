@@ -2,7 +2,7 @@ nav{
     display: flex;
     flex-direction:row ;
     padding: 2rem;
-    background-color: crimson;
+   
 
     .logo{
         @include flex(flex-start, center, row);
@@ -10,11 +10,13 @@ nav{
         
     }
     ul{
-        @include flex(space-around, center, row);
-        flex: 1 1 30%;
+        @include flex(flex-end, center, row);
+        flex: 1 1 5%;
         
     }
     a{
+        font-size: $header4;
+        padding: 0 1rem;
         &:hover{
             color: crimson;
         }
